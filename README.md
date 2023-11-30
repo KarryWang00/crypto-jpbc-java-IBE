@@ -16,7 +16,7 @@ https://link.springer.com/chapter/10.1007/3-540-44647-8_13
 2. choose $r \in Z_r$，compute ciphertext $C_1 = g^r$
 3. compute $g_{ID} = e(Q_{ID},g^x)^r$
 4. compute ciphertext $C_2 = M \oplus H_2(g_{ID})$，其中 $M\in \{0,1\}^n$ 是明文数据
-5. final ciphertext $<C_1,C_2>$
+5. final ciphertext $(C_1,C_2)$
 ## Decrypt
 
 1. The key of decrypt is to recover the $g_{ID}$
