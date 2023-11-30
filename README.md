@@ -1,5 +1,5 @@
 # Crypto-JPBC-IBE
-https://link.springer.com/chapter/10.1007/3-540-44647-8_13
+Identity-Based Encryption from the Weil Pairing: https://link.springer.com/chapter/10.1007/3-540-44647-8_13
 ## Setup
 
 1. generate public pairing, and related public parameters $(e,G_1,G_T,Z_r)$
