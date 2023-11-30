@@ -2,7 +2,7 @@
 https://link.springer.com/chapter/10.1007/3-540-44647-8_13
 ## Setup
 
-1. generate public pairing, and related public parameters $<e,G_1,G_T,Z_r>$
+1. generate public pairing, and related public parameters $(e,G_1,G_T,Z_r)$
 2. choose random number $x\in Z_r$，as system primary private key $msk$
 3. choose random number $g \in G_1$ as G_1 generator，compute public element $g^x$。therefor，the system public key is $pk = <g,g^x>$
 4. choose hash function $H_1:{\{0,1\}}^* \rightarrow G_1^*, H_2:G_T \rightarrow \{0,1\}^n$
